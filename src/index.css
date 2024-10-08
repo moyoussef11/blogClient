@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .activeSideBar {
+    @apply text-[#6C63FF] font-bold;
+  }
+  .activeBtn {
+    @apply text-[#6C63FF] font-bold bg-gray-500 pointer-events-none cursor-none;
+  }
+}

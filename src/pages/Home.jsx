@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import hero from "../assets/hero.jpg";
-import Post from "../components/Posts/post";
 import Categories from "../components/Posts/Categories";
 import useHome from "../hooks/useHome";
+import Post from "../components/Posts/post";
+
 
 const Home = () => {
   const { posts } = useHome();

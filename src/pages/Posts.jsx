@@ -1,5 +1,5 @@
 import Categories from "../components/Posts/Categories";
-import Post from "../components/Posts/post";
+import Post from "../components/Posts/Post";
 import Pagination from "../components/Posts/Pagination";
 import usePosts from "../hooks/usePosts";
 

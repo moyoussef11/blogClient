@@ -1,5 +1,5 @@
 import { FaCamera } from "react-icons/fa";
-import Post from "../components/Posts/post";
+import Post from "../components/Posts/Post";
 import UpdateUser from "../components/Users/UpdateUser";
 import useProfile from "../hooks/useProfile";
 import { memo } from "react";
